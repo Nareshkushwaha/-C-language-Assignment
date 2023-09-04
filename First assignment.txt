@@ -1,0 +1,19 @@
+nareshkushwaha8003@cloudshell:~$ mkdir tushar
+nareshkushwaha8003@cloudshell:~$ ls 
+README-cloudshell.txt  tushar
+nareshkushwaha8003@cloudshell:~$ cd tushar
+nareshkushwaha8003@cloudshell:~/tushar$ touch data.txt
+nareshkushwaha8003@cloudshell:~/tushar$ ls 
+data.txt
+nareshkushwaha8003@cloudshell:~/tushar$ cd /home/nareshkushwaha8003/
+nareshkushwaha8003@cloudshell:~$ ln -s /home/nareshkushwaha8003/tushar/data.txt  /home/nareshkushwaha8003/
+nareshkushwaha8003@cloudshell:~$ ls 
+data.txt  README-cloudshell.txt  tushar
+nareshkushwaha8003@cloudshell:~$ cd tushar
+nareshkushwaha8003@cloudshell:~/tushar$ vi data.txt
+nareshkushwaha8003@cloudshell:~/tushar$ cat data.txt
+hey i am naresh 
+nareshkushwaha8003@cloudshell:~/tushar$ cd ..
+nareshkushwaha8003@cloudshell:~$ cat data.txt
+hey i am naresh 
+nareshkushwaha8003@cloudshell:~$ 
