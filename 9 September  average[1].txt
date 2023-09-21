@@ -1,0 +1,159 @@
+Q1. Answer
+#include<stdio.h>
+int main()
+ {
+    int year;
+    printf("enter the year: ");
+    scanf("%d",&year);
+    if(year%4==0)
+    {
+    	printf("this is a leap year");
+	}
+	else{
+		printf("this is not leap year");
+	}
+	 return 0;
+ }
+------------------------------------------------------
+Q2. Answer
+#include<stdio.h>
+int main()
+ {
+    char ch;
+    printf("enter the unit c/f: ");
+    scanf("%c",&ch);
+    if(ch=='c')
+    {
+    	float temp , result;
+    	printf("enter the temperature in fahrenheit: ");
+	    scanf("%f",&temp);
+	    result=(temp - 32) * 5 / 9;
+	    printf("temperature in celsius is %fC",result);
+	}
+	else if(ch=='f')
+	{
+		float temp,result;
+    	printf("enter the temperature in celcius: ");
+	    scanf("%f",&temp);
+        result=(temp*9/5)+32;
+		printf("temperature in fahrenheit is %fF",result);	
+	}
+	 return 0;
+ }
+----------------------------------------------------------------------
+Q3. Answer
+#include<stdio.h>
+int main()
+ {
+    char ch;
+    printf("what do you want to find area or volume: ");
+    scanf("%c",&ch);
+    if(ch=='a')
+    {
+    	char cf;
+    	printf("enter the shape square/rectangle/triangle: ");
+    	scanf(" %c",&cf);
+    	if(cf=='s')
+    	{
+    		printf("area of square: side*side");
+		}
+		else if(cf=='r')
+		{
+			printf("area of rectangle: length*width");
+		}
+		else if(cf=='t')
+		{
+			printf("area of triangle: 1/2*base*height");
+		}
+		else {
+			printf("please choose correct option and retry again");
+		}
+		
+	}
+	else if(ch=='v')
+	{  	char cf;
+    	printf("enter the shape square/rectangle/triangle: ");
+    	scanf(" %c",&cf);
+    	if(cf=='s')
+    	{
+    		printf("volume of square: side*side*side");
+		}
+		else if(cf=='r')
+		{
+			printf("volume of rectangle: length*width*height");
+		}
+		else if(cf=='t')
+		{
+			printf("volume of triangle: 1/3*base*height");
+		}
+		else {
+			printf("please choose correct option and retry again");
+		}
+	
+	}
+	else{
+		printf("please choose correct option and retry again");
+	}
+	 return 0;
+ }
+------------------------------------------------------------------------------------
+Q4. Answer
+#include<stdio.h>
+int main()
+ {
+ 	float num;
+ 	printf("enter the marks out of 200: ");
+ 	scanf("%f",&num);
+ 	float percent;
+ 	percent=num / 200 * 100;
+ 		printf("percentage: %f \n",percent);
+ 		if(percent<25)
+ 		{
+ 			printf("grade: F");
+		 }
+		 else if(percent>=25 && percent<45)
+         {
+		 printf("grade: E");
+	     }
+	     else if(percent>=45 && percent<50)
+	     {
+	     	printf("grade: D");
+		 }
+		 else if(percent>=50 && percent<60)
+		 {
+		 	printf("grade: C");
+		 }
+		 else if(percent>=60 && percent<80)
+		 {
+		 	printf("grade: B");
+		 }
+		 else if(percent>80)
+		 {
+		 	printf("grade: A");
+		 }
+	 return 0;
+ }
+--------------------------------------------------------
+Q5. Answer
+#include<stdio.h>
+int main()
+ {
+ 	int num,result;
+ 	printf("enter the height in meters: ");
+ 	scanf("%d",&num);
+ 	result= num*100;
+ 	printf("height: %dcm \n",result);
+ 	if(result<500 )
+ 	{
+ 		printf(" height is low");
+	 }
+	 else if(result>=500 && result<=1000)
+	 {
+	 printf("height is medium");
+	 }
+	 else if(result>1001)
+	 {
+	 	printf("height is high");
+	 }
+	 return 0;
+ }
