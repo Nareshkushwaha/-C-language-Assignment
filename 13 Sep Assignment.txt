@@ -1,0 +1,365 @@
+Q1 1------>100 number print 
+
+#include<stdio.h>
+int main()
+{
+    int i=1;
+    while (i<=100)
+    {
+       printf("%d ",i);
+       i++;
+    }
+    return 0;
+}
+-------------------------------------------
+Q2 100--------->1 number print 
+
+#include<stdio.h>
+int main()
+{
+    int i=100;
+    while (i<=0)
+    {
+       printf("%d ",i);
+       i--;
+    }
+    return 0;
+}
+-------------------------------------------
+Q3 1--------->100 even number print 
+
+#include<stdio.h>
+int main()
+{
+    int a=1;
+    
+    while(a<=100)
+    {
+       if(a%2==0)
+       {
+       printf("%d  ",a);
+    }
+    a++;
+}
+    return 0;
+}
+---------------------------------------------
+Q4 100-------------->1 even number print 
+
+#include<stdio.h>
+int main()
+{
+    int a=100;
+    
+    while(a<=0)
+    {
+       if(a%2==0)
+       {
+       printf("%d  ",a);
+    }
+    a--;
+}
+    return 0;
+}
+---------------------------------------------
+Q5 1------------>100 odd number print 
+
+#include<stdio.h>
+int main()
+{
+    int a=1;
+    
+    while(a<=100)
+    {
+       if(a%2!=0)
+       {
+       printf("%d  ",a);
+    }
+    a++;
+}
+    return 0;
+}
+----------------------------------------------
+Q6 50------->500 number print 
+
+#include<stdio.h>
+int main()
+{
+    int i=50;
+    while (i<=500)
+    {
+       printf("%d ",i);
+       i++;
+    }
+    return 0;
+}
+--------------------------------------------
+Q7 500--------->50 number print
+
+#include<stdio.h>
+int main()
+{
+    int i=500;
+    while (i<=50)
+    {
+       printf("%d ",i);
+       i--;
+    }
+    return 0;
+}
+------------------------------------------------
+Q8 50---------->100 number print 
+
+#include<stdio.h>
+int main()
+{
+    int i=50;
+    while (i<=1000)
+    {
+       printf("%d ",i);
+       i++;
+    }
+    return 0;
+}
+--------------------------------------------------
+Q10 random two even number
+ 
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf(" enter the  first number");
+    scanf("%d",&a);
+    int b;
+    printf(" enter the second number");
+    scanf("%d",&b);
+    while(a<=b)
+    {
+        if(a%2==0)
+        {
+            printf("%d\n",a);
+         }
+        a++;
+    }
+        return 0;
+        }
+-----------------------------------------------
+Q11 random two odd number 
+
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf(" enter the  first number");
+    scanf("%d",&a);
+    int b;
+    printf(" enter the second number");
+    scanf("%d",&b);
+    while(a<=b)
+    {
+        if(a%2!=0)
+        {
+            printf("%d\n",a);
+         }
+        a++;
+    }
+        return 0;
+        }
+-----------------------------------------------------
+Q12 1--------->10 sum(Addition)
+
+#include<stdio.h>
+int main()
+{
+    int a,b,sum;
+    printf("enter the first  number");
+    scanf("%d",&a);
+   
+    printf("enter the second number");
+    scanf("%d",&b);
+
+    sum = a + b;
+    printf("%d + %d = %d\n", a, b, sum);
+
+    return 0;
+}
+----------------------------------------------------
+Q13 2 table karna hai
+
+#include<stdio.h>
+int main()
+{
+    int a=1;
+    
+    while(a<=20)
+    {
+       if(a%2==0)
+       {
+       printf("%d \n",a);
+    }
+    a++;
+}
+    return 0;
+}
+----------------------------------------------------
+Q14 user input table two print
+
+#include <stdio.h>
+
+int main() {
+   int num, i = 1;
+   
+   printf("Enter a number : ");
+   scanf("%d", &num);
+   
+   while (i <= 10) {
+      printf("%d x %d = %d\n", num, i, num * i);
+      i++;
+   }
+   
+   return 0;
+}
+--------------------------------------------------
+Q19 2 table print opposite side 
+
+#include<stdio.h>
+int main()
+{
+    int a=20;
+    
+    while(a<=0)
+    {
+       if(a%20==0)
+       {
+       printf("%d \n",a);
+    }
+    a--;
+}
+    return 0;
+}
+------------------------------------------------------
+Q20 revers number print 
+
+#include <stdio.h>
+
+int main() {
+   int num, rem,rev = 0;
+   
+   printf("Enter a number : ");
+   scanf("%d", &num);
+   
+   while (num != 0) {
+      rem = num % 10;
+      rev = rev * 10 + rem;
+      num /= 10;
+   }
+   
+   printf("The reverse number is: %d", rev);
+   
+   return 0;
+}
+-----------------------------------------------
+
+Q21 print swap number 
+
+#include<stdio.h>
+int main()
+{
+   int a=20;
+   int b=30;
+
+   printf(" the value of a is :%d\n",a);
+   printf(" the value of a is :%d\n",b);
+
+   a=a+b;
+   b=a-b;
+   a=a-b;
+
+   printf(" the value of a is :%d\n",a);
+   printf(" the value of a is :%d\n",b);
+   
+   return 0;
+}
+-----------------------------------------------
+Q21 (ii) swap number print
+
+#include<stdio.h>
+int main()
+{
+   int a=50;
+   int b=90;
+   int c;
+   
+   c=a;
+   a=b;
+   b=c;
+   
+   printf(" the value of a is :%d\n",a);
+   printf(" the value of b is :%d\n",b);
+   
+   return 0;
+}
+------------------------------------------------------
+Q21(iii)  swap numbe print
+
+#include<stdio.h>
+int main()
+{
+   int a=50;
+   int b=90;
+   
+   a=a*b;
+   b=a/b;
+   a=a/b;
+   
+   printf(" the value of a is :%d\n",a);
+   printf(" the value of b is :%d\n",b);
+   
+   return 0;
+}
+
+----------------------------------------------------
+Q22 print Armstrong number 
+
+
+#include <stdio.h>
+int main()
+{
+    int num=153;
+    int rem,sum=0;
+    int temp=num;
+    while(num>0)
+    {
+    rem=num%10;
+    sum=sum+rem*rem*rem;
+    num=num/10;
+    }
+    if(temp==sum)
+    {
+        printf("%d is the armstrong number",sum);
+    }
+    else
+    {
+         printf("%d is not armstrong number",sum);
+    }
+
+       return 0;
+}
+----------------------------------------------------
+Q23 print factorial number 
+
+#include <stdio.h>
+int main()
+{
+    int num=50;
+    int fact=1;
+    int i=i;
+    while(i<=num)
+    {
+       fact=fact*i;
+       i++;
+    }
+       printf("%d",fact);
+       return 0;
+}
+
