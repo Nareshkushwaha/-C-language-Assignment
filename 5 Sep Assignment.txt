@@ -1,0 +1,150 @@
+Q1 
+#include<stdio.h>
+int main()
+{
+    int num1=48;
+    int num2=8;
+    int result;
+    result=num1 + num2;
+    printf("%d ",result);
+    return 0;
+}
+------------------------------------
+Q2
+#include<stdio.h>
+int main()
+{
+    int num1=23;
+    int num2=2;
+    int result;
+    result=num1 - num2;
+    printf("%d ",result);
+    return 0;
+}
+----------------------------------
+Q3
+#include<stdio.h>
+int main()
+{
+    int num1=12;
+    int num2=4;
+    int result;
+    result=num1 * num2;
+    printf("%d ",result);
+    return 0;
+}
+------------------------------------
+Q5
+#include<stdio.h>
+int main()
+{
+    int num1=23;
+    int num2=4;
+    int num3=5;
+    int num4=2;
+    int result;
+    result=num1+num2*num3-num4;
+    printf("%d",result);
+    return 0;
+}
+-----------------------------------
+Q6
+#include<stdio.h>
+int main()
+{
+    int num1=23;
+    int num2=4;
+    int num3=5;
+    int num4=2;
+    int result;
+    result=num1+num2*num3-num4;
+    printf("%d",result);
+    return 0;
+}
+---------------------------------------
+Q7
+#include<stdio.h>
+int main()
+{
+    int num1=23;
+    int num2=56;
+    float num3=2.3;
+    int num4=3;
+    int result;
+    result=num1+num2-(num3*num4);
+    printf("%d",result);
+    return 0;
+}
+---------------------------------------
+Q8
+#include<stdio.h>
+int main()
+{
+    float a=2.3;
+    float b=4.5;
+    int   c=34;
+    float d=4.5;
+    float  result;
+    result=a*b-(c+d);
+    printf("%f",result);
+    return 0;
+}
+--------------------------------------
+Q9
+#include<stdio.h>
+int main()
+{
+    int a=12;
+    int b=67;
+    float c=5.6;
+    float d=2.3;
+    float  result;
+    result=a-b*c-d;
+    printf("%d",result);
+    return 0;
+}
+-------------------------------------
+Q10
+#include<stdio.h>
+int main()
+{
+    int radius=20;
+    int pai=40;
+    int y=2;
+    int result;
+    result=y*pai*radius;
+    printf("%d",result;
+    return 0;
+}
+-----------------------------------
+Q11
+#include<stdio.h>
+int main()
+{
+    int radius=20;
+    int pai=4;
+    int y=2;
+    int result;
+    result=y*pai*radius;
+    printf("%d",result);
+    return 0;
+}
+--------------------------------------
+Q12
+#include<stdio.h>
+int main()
+{
+    int side=20;
+    int pai=40;
+    int result;
+    result=side*side*side;
+    printf("%d",result);
+    return 0;
+}
+
+
+
+
+
+
+
