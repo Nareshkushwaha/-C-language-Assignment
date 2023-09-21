@@ -1,0 +1,72 @@
+Q.1 Answer 
+1------>100 tak number print karna hai 
+#include <stdio.h>
+int main() 
+{
+   int a = 1;
+   while(a <= 100) 
+   {
+      printf("%d ", a);
+      a++;
+   }
+   return 0;
+}
+------------------------------------------------
+10----->1 number print karna he
+#include <stdio.h>
+int main() 
+{
+   int a = 10;
+   while(a > 0) 
+   {
+      printf("%d ", a);
+      a--;
+   }
+   return 0;
+}
+
+---------------------------------------------------
+100--------->1 tak number print karna hai
+#include <stdio.h>
+int main() 
+{
+   int a = 100;
+   while(a > 0) 
+   {
+     printf("%d ", a);
+     a--;
+   }
+   return 0;
+}---------------------------------------------------------
+50------>500 tak number print karna hai
+#include <stdio.h>
+int main() 
+{
+   int a = 50;
+   while(a <= 500) 
+   {
+     printf("%d ", a);
+     a++;
+   }
+   return 0;
+}
+------------------------------------------------------------
+Q.2 Answer 
+#include <stdio.h>
+int main() {
+    int first, second;
+    
+    printf("Enter the first element: ");
+    scanf("%d", &first);
+    
+    printf("Enter the second element: ");
+    scanf("%d", &second);
+     
+   while(first<=second)
+{
+ printf("\n%d", first);
+ first++;
+}
+    
+    return 0;
+}
