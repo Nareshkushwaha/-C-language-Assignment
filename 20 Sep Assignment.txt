@@ -1,0 +1,512 @@
+Q1
+#include<stdio.h>
+void add();
+int main()
+{
+    add();
+    return 0;
+}
+  void add()
+  {
+      int a=45,b=34,c;
+      c=a+b;
+      printf("%d",c);
+  }
+-------------------------------------------
+Q2
+#include<stdio.h>
+void add();
+void sub();
+void dis();
+void multi();
+void modu();
+int main()
+{
+        add();
+        sub();
+        dis();
+        multi();
+        modu();
+   return 0;
+}
+  void add()
+  {
+      int a=45,b=34,c;
+      c=a+b;
+      printf("%d\n",c);
+  }
+  void sub()
+  {
+      int a=45,b=34,c;
+      c=a-b;
+      printf("%d\n",c);
+  }
+  void dis()
+  {
+      int a=45,b=34,c;
+      c=a*b;
+      printf("%d\n",c);
+  }
+  void multi()
+  {
+      int a=45,b=34,c;
+      c=a/b;
+      printf("%d\n",c);
+  }
+  void modu()
+  {
+      int a=45,b=34,c;
+      c=a%b;
+      printf("%d\n",c);
+  }
+---------------------------------------
+Q2 user input 
+#include<stdio.h>
+void add();
+void sub();
+void dis();
+void multi();
+void modu();
+int main()
+{
+        add();
+        sub();
+        dis();
+        multi();
+        modu();
+   return 0;
+}
+  void add()
+  {
+      
+      int a,b,c;
+      printf("enter the value of a and b");
+      scanf("%d %d", &a,&b);
+      c=a+b;
+      printf("%d\n",c);
+  }
+  void sub()
+  {
+      int a,b,c;
+      printf("enter the value of a and b");
+      scanf("%d %d", &a,&b);
+      c=a-b;
+      printf("%d\n",c);
+  }
+  void dis()
+  {
+      int a,b,c;
+      printf("enter the value of a and b");
+      scanf("%d %d", &a,&b);
+      c=a*b;
+      printf("%d\n",c);
+  }
+  void multi()
+  {
+      int a,b,c;
+      printf("enter the value of a and b");
+      scanf("%d %d", &a,&b);
+      c=a/b;
+      printf("%d\n",c);
+  }
+  void modu()
+  {
+      int a,b,c;
+      printf("enter the value of a and b");
+      scanf("%d %d", &a,&b);
+      c=a%b;
+      printf("%d\n",c);
+  }
+------------------------------------------------
+Q3.
+#include<stdio.h>
+void voter();
+void checkNumber();
+int main()
+{
+    voter();
+    checkNumber();
+    return 0;
+}
+void voter(){
+    int a=21;
+    if(a>=18)
+    {
+        printf("you are valid\n");
+    }
+    }
+void checkNumber(){
+    int a=21;
+    if(a%2==0)
+    {
+        printf("even\n");
+        
+    }
+    else{
+        printf("odd\n");
+    }
+    
+}    
+-------------------------------------------
+Q4.
+#include<stdio.h>
+void alleven();
+void randomeven();
+void allodd();
+void randomodd();
+int main()
+{
+    alleven();
+     
+    randomeven();
+    
+    allodd();
+    
+    randomodd();
+    return 0;
+}
+void alleven(){
+    int a=1;
+    printf("even no.:");
+     while(a<=100)
+     {
+         if(a%2==0)
+         {
+             printf("%d ",a);
+         }
+         a++;
+     }
+     printf("\n");
+    }
+void randomeven(){
+    int a=34;
+    printf("even no.:");
+    while(a<=89)
+    {
+         if(a%2==0){
+         printf("%d ",a);
+         }
+        a++;
+    }
+    printf("\n");
+    
+}    
+void allodd(){
+    int a=1;
+    printf("odd no.:");
+    while(a<=100)
+    {
+        if(a%2!=0)
+        {
+        printf("%d ",a);
+        }
+        a++;
+    }
+printf("\n");
+    
+}
+
+void randomodd(){
+    int a=34;
+    printf("odd no.:");
+    while(a<=89){
+        if(a%2!=0){
+            printf("%d ",a);
+        }
+        a++;
+    }
+
+    printf("\n");
+}
+               or
+//user input
+#include<stdio.h>
+void alleven();
+void randomeven();
+void allodd();
+void randomodd();
+int main()
+{
+    alleven();
+     
+   
+    
+    allodd();
+    
+   
+    return 0;
+}
+void alleven(){
+    int a,b;
+    printf("enter first number: ");
+    scanf("%d",&a);
+     printf("enter second number: ");
+    scanf("%d",&b);
+    
+     while(a<=b)
+     {
+         if(a%2==0)
+         {
+             printf("%d ",a);
+         }
+         a++;
+     }
+     printf("\n");
+    }
+   
+void allodd(){
+    int a,b;
+     printf("enter first number: ");
+    scanf("%d",&a);
+     printf("enter second number: ");
+    scanf("%d",&b);
+    while(a<=b)
+    {
+        if(a%2!=0)
+        {
+        printf("%d ",a);
+        }
+        a++;
+    }
+printf("\n");
+    
+}
+--------------------------------------------------------------
+Q5.
+#include<stdio.h>
+void factorial();
+void armstrong();
+void pallindrome();
+void reverseNumber();
+void prime();
+
+int main()
+{
+    
+    factorial();
+    armstrong();
+    pallindrome();
+    reverseNumber();
+    prime();
+    return 0;
+}
+void factorial(){
+ int num=5, fact=1, i=1;
+ while(i<=num){
+ 
+     fact=fact*i;
+     i++;
+ }
+ printf("the factorial no. is %d\n",fact);
+}
+void armstrong(){
+    int num=153,rem,sum=0;
+    while(num>0){
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    printf("%d is armstrong no.\n", sum);
+}
+void pallindrome(){
+    int num=15251,rem,sum=0;
+    int temp=num;
+    while(num>0){
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    if(temp==sum)
+    {
+        printf("%d is pallindrome no.\n",temp);
+    }
+
+    else{
+        printf("%d is not pallindrome no.\n",temp);
+    }
+}
+void reverseNumber(){
+      int num=1521,rem,sum=0;
+    
+    while(num>0){
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    printf("the reverse no. is %d\n",sum);
+}
+void prime(){
+    int num=7,i=2;
+    while(i<=num){
+        if(num>=i){
+            if(num%i==0){
+                break;
+            }
+        }
+        if(i==num-1){
+            printf("%d is prime\n",num);
+        }
+       i++;   
+ }
+}
+          or
+//user input
+#include<stdio.h>
+void factorial();
+void armstrong();
+void pallindrome();
+void reverseNumber();
+void prime();
+void swap();
+int main()
+{
+    
+    factorial();
+    armstrong();
+    pallindrome();
+    reverseNumber();
+    prime();
+    swap();
+    return 0;
+}
+void factorial(){
+ int num, fact=1, i=1;
+ printf("enter the number: ");
+ scanf("%d",&num);
+ while(i<=num){
+ 
+     fact=fact*i;
+     i++;
+ }
+ printf("the factorial no. is %d\n\n",fact);
+}
+void armstrong(){
+    int num,rem,sum=0;
+     printf("enter the number: ");
+ scanf("%d",&num);
+    while(num>0){
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    printf("%d is armstrong no.\n\n", sum);
+}
+void pallindrome(){
+    int num,rem,sum=0;
+     printf("enter the number: ");
+ scanf("%d",&num);
+    int temp=num;
+    while(num>0){
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    if(temp==sum)
+    {
+        printf("%d is pallindrome no.\n\n",temp);
+    }
+
+    else{
+        printf("%d is not pallindrome no.\n\n",temp);
+    }
+}
+void reverseNumber(){
+      int num,rem,sum=0;
+     printf("enter the number: ");
+ scanf("%d",&num);
+    while(num>0){
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    printf("the reverse no. is %d\n\n",sum);
+}
+void prime(){
+    int num,i=2;
+     printf("enter the number: ");
+ scanf("%d",&num);
+    while(i<=num){
+        if(num>=i){
+            if(num%i==0){
+                break;
+            }
+        }
+        if(i==num-1){
+            printf("%d is prime\n\n",num);
+        }
+    
+        i++;
+    }
+    
+}
+void swap(){
+    int a,b=2,c=1,d;
+    printf("choose 1/2/3 way: ");
+    scanf("%d",&a);
+    if(a==1){
+        b=b+c;
+        c=b-c;
+        b=b-c;
+        printf("first way of no. swap: b=%d c=%d\n",b,c);
+        
+        
+    }
+    else if(a==2)
+    {
+        b=d;
+        c=b;
+        d=c;
+        printf("second way of no. swap: b=%d c=%d\n",b,c);
+    }
+    else if(a==3){
+     b=b*c;
+        c=b/c;
+        b=b/c;
+        printf("third way of no. swap: b=%d c=%d\n",b,c);   
+    }
+}
+------------------------------------------------------------------
+Q6.
+#include<stdio.h>
+void checkNumber();
+
+int main()
+{
+    
+     checkNumber();
+    return 0;
+}
+void checkNumber(){
+    int a,b,c;
+    printf("enter the number: ");
+    scanf("%d",&a);
+    printf("choose divisor 2/5/7: ");
+    scanf("%d",&b);
+    if(b==2){
+        if(a%b==0){
+            printf("divisble by 2");
+        }
+        else{
+            printf("not divisible");
+        }
+    }
+    else if(b==5){
+        if(a%b==0){
+            printf("divisible by 5");
+        }
+        else{
+            printf("not divisible");
+        }
+    }
+    else if(b==7){
+        if(a%b==0){
+            printf("divisible by 7");
+        }
+        else{
+            printf("not divisible");
+        }
+    }
+
+    
+}
+-----------------------------------------------------
