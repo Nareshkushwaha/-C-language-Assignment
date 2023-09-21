@@ -1,0 +1,59 @@
+Q1 Answer
+#include<stdio.h>
+int main()
+{
+    int num=459;
+    int rem,sum=0;
+    while(num>0);
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+        {
+            printf(" the revers number is : %d",sum);
+            
+            return 0;
+        }
+        
+    }
+}
+------------------------------------------------------
+Q2 Answer
+#include<stdio.h>
+int main()
+{
+    int num=15251;
+    int rem,sum=0;
+    while(num>0);
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+        {
+            printf(" the revers number is : %d",sum);
+            
+            return 0;
+        }
+        
+    }
+}
+-------------------------------------------------------
+Q3 Answer
+#include<stdio.h>
+int main()
+{
+    int num=1256;
+    int rem,sum=0;
+    while(num>0);
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+        {
+            printf(" the revers number is : %d",sum);
+            
+            return 0;
+        }
+        
+    }
+}
