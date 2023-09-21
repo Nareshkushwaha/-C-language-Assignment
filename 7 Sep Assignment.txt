@@ -1,0 +1,269 @@
+Q1
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b ");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c ");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d ");
+    scanf("%d",&d);
+    int e;
+    printf("enter the value of e ");
+    scanf("%d",&e);
+    int result;
+    //5+8*(23-3)+7 
+    result=a+b*(c-d)+e;
+    printf("result :%d",result);
+    return 0;
+}
+---------------------------------------
+Q2
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b ");
+    scanf("%d",&b);
+    int result;
+    result=a-b;
+    printf("%d",result);
+    return 0;
+}
+-------------------------------------
+Q4
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b ");
+    scanf("%d",&b);
+    int result;
+    result=a/b;
+    printf("%d",result);
+    return 0;
+}
+-----------------------------------
+Q5
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b ");
+    scanf("%d",&b);
+    int result;
+    result=a%b;
+    printf("%d",result);
+    return 0;
+}
+------------------------------------
+Q6
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b ");
+    scanf("%d",&b);
+    float c;
+    printf("enter the value of c ");
+    scanf("%f",&c);
+    int d;
+    printf("enter the value of d ");
+    scanf("%d",&d);
+    int result;
+    result=a+b-(c*d);
+    printf("result :%d",result);
+    return 0;
+}
+---------------------------------------
+Q7
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b ");
+    scanf("%d",&b);
+    float c;
+    printf("enter the value of c ");
+    scanf("%f",&c);
+    int d;
+    printf("enter the value of d ");
+    scanf("%d",&d);
+    int result;
+    result=a+b-(c*d);
+    printf("result :%d",result);
+    return 0;
+}
+---------------------------------------
+Q8
+#include<stdio.h>
+int main()
+{
+    float a;
+    printf("enter the value of a ");
+    scanf("%f",&a);
+    float b;
+    printf("enter the value of b ");
+    scanf("%f",&b);
+    int c;
+    printf("enter the value of c ");
+    scanf("%d",&c);
+    float d;
+    printf("enter the value of d ");
+    scanf("%f",&d);
+    int  result;
+    result=a*b-(c+d);
+    printf("result :%d",result);
+    return 0;
+}
+------------------------------------------
+Q9
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b ");
+    scanf("%d",&b);
+    float c;
+    printf("enter the value of c ");
+    scanf("%f",&c);
+    float d;
+    printf("enter the value of d ");
+    scanf("%f",&d);
+    int  result;
+    result=a-b*(c-d);
+    printf("result :%d",result);
+    return 0;
+}
+------------------------------------------
+Q10
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b ");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c ");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d ");
+    scanf("%d",&d);
+    int e;
+    printf("enter the value of d ");
+    scanf("%d",&d);
+    int f;
+    printf("enter the value of d ");
+    scanf("%d",&d);
+    int  result;
+    result=a*b-(c-d*e-f);
+    printf("result :%d",result);
+    return 0;
+}
+-----------------------------------------
+Q11
+#include<stdio.h>
+int main()
+ {
+    int r;
+    printf("enter the value of r: ");
+    scanf("%d",&r);
+    
+    float pi=3.14;
+    
+	float area;
+    area= pi*r*r;
+    printf("area= %f",area);
+	 return 0;
+ }
+----------------------------------------
+Q12
+#include<stdio.h>
+int main()
+ {
+    int a;
+    printf("enter the value of a: ");
+    scanf("%d",&a);
+    
+    
+	int volume;
+    volume= a*a*a;
+    printf("vloume= %d",volume);
+	 return 0;
+ }
+
+--------------------------------------
+Q13
+#include<stdio.h>
+int main()
+ {
+    int a;
+    printf("enter the value of a: ");
+    scanf("%d",&a);
+    
+    
+	int volume;
+    volume= a*a*a;
+    printf("vloume= %d",volume);
+	 return 0;
+ }
+-----------------------------------------
+Q14
+#include<stdio.h>
+int main()
+ {
+    int a;
+    printf("enter the value of a: ");
+    scanf("%d",&a);
+    
+    
+	int volume;
+    volume= a*a*a;
+    printf("vloume= %d",volume);
+	 return 0;
+ }
+------------------------------------------
+Q15
+#include<stdio.h>
+int main()
+ {
+    int r;
+    printf("enter the value of r: ");
+    scanf("%d",&r);
+    
+    float pi=3.14;
+      
+	float area;
+    area= 4*pi*r*r;
+    printf("area= %f",area);
+	 return 0;
+ }
+
+
