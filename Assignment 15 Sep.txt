@@ -1,0 +1,510 @@
+Q1.
+#include<stdio.h>
+ int main()
+ {
+     for(int i=1;i<=3;i++)
+     {
+         for(int j=1;j<=i;j++)
+         {
+             printf("*");
+         }
+         printf("\n");
+     }
+     for(int i=1;i<=3;i++)
+     {
+         for(int j=3;j>=i;j--)
+         {
+             printf("*");
+         }
+         printf("\n");
+     }
+     return 0;
+ }
+---------------------------------------------------------
+Q2.
+#include<stdio.h>
+ int main()
+ {
+     for(int i=1;i<=3;i++)
+     {
+         for(int j=1;j<=i;j++)                       
+         {                                           
+             printf("*");                            
+         }                                         
+         printf("\n");                              
+     }
+     for(int i=1;i<=2;i++)
+     {
+         for(int j=2;j>=i;j--)
+         {
+             printf("*");
+         }
+         printf("\n");
+     }
+     return 0;
+ }
+----------------------------------------------
+Q3.
+#include<stdio.h>
+ int main()
+ {
+     int n=1;
+     for(int i=1;i<=3;i++)
+     {
+         for(int j=1;j<=i;j++)
+         {
+             printf("%d",n);
+             n++;
+         }
+         printf("\n");
+     }
+     
+     return 0;
+ }
+------------------------------------------------
+Q4.
+#include<stdio.h>
+ int main()
+ {
+     int n=1;
+     for(int i=1;i<=3;i++)
+     {
+         for(int j=1;j<=i;j++)
+         {
+             printf("%d",n);
+             n+=2;
+         }
+         printf("\n");
+     }
+     
+     return 0;
+ }
+------------------------------------------------
+Q5.
+#include<stdio.h>
+ int main()
+ {
+     int n=2;
+     for(int i=1;i<=3;i++)
+     {
+         for(int j=1;j<=i;j++)
+         {
+             printf("%d",n);
+             n+=2;
+         }
+         printf("\n");
+     }
+     
+     return 0;
+ }
+---------------------------------------------------
+Q6.
+#include<stdio.h>
+ int main()
+ {
+     
+     for(int i=1;i<=4;i++)
+     {
+         for(int j=1;j<=4;j++)
+         {
+             printf("%d",j);
+             
+         }
+         printf("\n");
+     }
+     
+     return 0;
+ }
+---------------------------------------------------
+Q7.
+#include<stdio.h>
+ int main()
+ {
+     
+     for(int i=1;i<=4;i++)
+     {
+         for(int j=1;j<=4;j++)
+         {
+             printf("%d",i);
+             
+         }
+         printf("\n");
+     }
+     
+     return 0;
+ }
+--------------------------------------------------------
+Q8.
+#include<stdio.h>
+ int main()
+ {
+     int n=1;
+     for(int i=1;i<=5;i++)
+     {
+         for(int j=1;j<=5;j++)
+         {
+             printf("%d",n);
+             n++;  
+         }
+         printf("\n");
+     }
+     
+     return 0;
+ }
+-------------------------------------------------------
+Q9.
+#include<stdio.h>
+ int main()
+ {
+     int n=1;
+     for(int i=1;i<=4;i++)
+     {
+         for(int j=1;j<=4;j++)
+         {
+             printf("%d",n);
+             n+=2;  
+         }
+         printf("\n");
+     }
+     
+     return 0;
+ }
+---------------------------------------------------------
+Q10.
+#include<stdio.h>
+ int main()
+ {
+     
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=2;s>=i;s--)
+         {
+             printf(" ");
+         }
+         for(int j=1;j<=i;j++)
+         {
+             printf(" *");
+              
+         }
+         printf("\n");
+     }
+     
+     return 0;
+ }
+--------------------------------------------------
+Q11.
+#include<stdio.h>
+ int main()
+ {
+     
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=1;s<=i;s++)
+         {
+             printf(" ");
+         }
+         for(int j=3;j>=i;j--)
+         {
+             printf(" *");
+              
+         }
+         printf("\n");
+     }
+     
+     return 0;
+ }
+-------------------------------------------
+Q12.
+#include<stdio.h>
+ int main()
+ {
+     
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=2;s>=i;s--)
+         {
+             printf(" ");
+         } 
+         for(int j=1;j<=i;j++)
+         {
+             printf(" *");
+             
+         }
+         printf("\n");
+     }
+     for(int i=2;i<=2;i++)
+     {
+         for (int s=2;s>=i;s--)
+         {
+             printf(" ");
+         }
+         for(int j=1;j<=i;j++)
+         {
+             printf(" *");
+         }
+     
+         
+     }
+     
+     
+     return 0;
+ }
+-----------------------------------------------------------
+Q13.
+#include<stdio.h>
+ int main()
+ {
+     
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=2;s>=i;s--)
+         {
+             printf(" ");
+         }
+         for(int j=1;j<=i;j++)
+         {
+             printf(" *");
+             
+         }
+         printf("\n");
+     }
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=2;s<=i;s++)
+         {
+             printf(" ");
+         } 
+         for(int j=3;j>=i;j--)
+         {
+             printf(" *");
+             
+         }
+         printf("\n");
+     }
+     
+     
+     return 0;
+ }
+-----------------------------------------------------------
+Q14.
+#include<stdio.h>
+ int main()
+ {
+     
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=2;s>=i;s--)
+         {
+             printf(" ");
+         } 
+         for(int j=1;j<=i;j++)
+         {
+             printf(" *");
+             
+         }
+         printf("\n");
+     }
+     for(int i=2;i<=2;i++)
+     {
+         for (int s=2;s>=i;s--)
+         {
+             printf(" ");
+         }
+         for(int j=1;j<=i;j++)
+         {
+             printf(" *");
+         }
+     
+         
+     }
+     
+     
+     return 0;
+ }
+------------------------------------------------
+Q15.
+#include<stdio.h>
+ int main()
+ {
+     
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=2;s<=i;s++)
+         {
+             printf("#");
+         } 
+         for(int j=3;j>=i;j--)
+         {
+             printf("*");
+             
+         }
+         printf("\n");
+     }
+     
+     
+     return 0;
+ }
+--------------------------------------------------
+Q16.
+#include<stdio.h>
+ int main()
+ {
+     
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=2;s>=i;s--)
+         {
+             printf("#");
+         }
+         for(int j=1;j<=i;j++)
+         {
+             printf("*");
+             
+         }
+         printf("\n");
+     }
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=2;s<=i;s++)
+         {
+             printf("#");
+         } 
+         for(int j=3;j>=i;j--)
+         {
+             printf("*");
+             
+         }
+         printf("\n");
+     }
+     
+     
+     return 0;
+ }
+-------------------------------------------------
+Q17.
+#include<stdio.h>
+ int main()
+ {
+     
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=2;s>=i;s--)
+         {
+             printf("#");
+         }
+         for(int j=1;j<=i;j++)
+         {
+             printf("*");
+             
+         }
+         printf("\n");
+     }
+     for(int i=1;i<=2;i++)
+     {
+         for(int s=1;s<=i;s++)
+         {
+             printf("#");
+         } 
+         for(int j=2;j>=i;j--)
+         {
+             printf("*");
+             
+         }
+         printf("\n");
+     }
+     
+     
+     return 0;
+ }
+----------------------------------------------
+Q18.
+#include<stdio.h>
+ int main()
+ {
+     
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=1;s<=i;s++)
+         {
+             printf(" ");
+         }
+         for(int j=3;j>=i;j--)
+         {
+             printf("*");
+              
+         }
+         printf("\n");
+     }
+     
+     return 0;
+ }
+-------------------------------------------------
+Q19.
+#include<stdio.h>
+ int main()
+ {
+     
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=2;s>=i;s--)
+         {
+             printf(" ");
+         } 
+         for(int j=1;j<=i;j++)
+         {
+             printf("*");
+             
+         }
+         printf("\n");
+     }
+     for(int i=1;i<=2;i++)
+     {
+         for(int s=1;s<=i;s++)
+         {
+             printf(" ");
+         }
+         for(int j=2;j>=i;j--)
+         {
+             printf("*");
+              
+         }
+         printf("\n");
+     }
+     
+     return 0;
+ }
+------------------------------------------------
+Q20.
+#include<stdio.h>
+ int main()
+ {
+     
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=2;s>=i;s--)
+         {
+             printf(" ");
+         } 
+         for(int j=1;j<=i;j++)
+         {
+             printf("*");
+             
+         }
+         printf("\n");
+     }
+     for(int i=1;i<=3;i++)
+     {
+         for(int s=2;s<=i;s++)
+         {
+             printf(" ");
+         }
+         for(int j=3;j>=i;j--)
+         {
+             printf("*");
+              
+         }
+         printf("\n");
+     }
+     
+     return 0;
+ }
