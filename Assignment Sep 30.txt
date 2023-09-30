@@ -1,0 +1,234 @@
+Q1 
+#include<stdio.h>
+int main()
+{
+     int week=1;
+     printf("enter the number");
+     scanf("%d",&week);
+     switch(week)
+     {
+         case 1:
+         {
+             printf("Sunday");
+             break;
+         }
+         case 2:
+         {
+             printf("Monday");
+             break;
+         }
+         case 3:
+         {
+             printf("Tuesday");
+             break;
+         }
+         case 4:
+         {
+             printf("Wednsday");
+             break;
+         }
+         case 5:
+         {
+             printf("Thursday");
+             break;
+         }
+         case 6:
+         {
+             printf("Friday");
+             break;
+         }
+         case 7:
+         {
+             printf("Saturday");
+             break;
+         }
+         default:
+         {
+             printf("not match");
+         }
+     }
+     return 0;
+}
+------------------------------------------------
+Q2
+#include<stdio.h>
+int main()
+{
+     int week=1;
+     printf("enter the number");
+     scanf("%d",&week);
+     switch(week)
+     {
+         case 1:
+         {
+             printf("January");
+             break;
+         }
+         case 2:
+         {
+             printf("Febuary");
+             break;
+         }
+         case 3:
+         {
+             printf("march");
+             break;
+         }
+         case 4:
+         {
+             printf("april");
+             break;
+         }
+         case 5:
+         {
+             printf("May");
+             break;
+         }
+         case 6:
+         {
+             printf("Jun");
+             break;
+         }
+         case 7:
+         {
+             printf("july");
+             break;
+         }
+     
+         case 8:
+         {
+             printf("august");
+             break;
+         }
+         case 9:
+         {
+             printf("september");
+             break;
+         }
+         case 10:
+         {
+             printf("octumber");
+             break;
+         }
+         case 11:
+         {
+             printf("novmber");
+             break;
+         }
+         case 12:
+         {
+             printf("december");
+             break;
+         }
+         default:
+         {
+             printf("not match");
+         }
+     }
+     return 0;
+}
+-------------------------------------------------
+Q3
+#include<stdio.h>
+int main()
+{
+     int a;
+     printf("enter the number");
+     scanf("%d",&a);
+     a=a%2;
+     switch(a)
+    {
+      case 1: 
+      {
+          printf("odd");
+          break;
+      }
+      default:
+      {
+          printf("even");
+      }
+      return 0;
+  }
+}
+--------------------------------------------------------
+Q4
+#include<stdio.h>
+int main()
+{
+     char ch;
+     printf("enter the number");
+     scanf("%c",&ch);
+     switch(ch)
+    {
+      case 'a': 
+      {
+          printf("vowels");
+          break;
+      }
+      case 'e':
+      {
+          printf("vowels");
+          break;
+      }
+      case 'i':
+      {
+          printf("vowels");
+          break;
+      }
+      case 'o':
+      {
+          printf("vowels");
+          break;
+      }
+      case 'u':
+      {
+          printf("vowels");
+          break;
+      }
+      default:
+      {
+          printf("consonant");
+      }
+      return 0;
+  }
+}
+-------------------------------------------
+Q5
+#include <stdio.h>
+
+int main() {
+    char ch;
+    int num1, num2;
+
+    printf("Enter the first number");
+    scanf("%d",&num1);
+
+    printf("Enter the oprator");
+    scanf(" %c",&ch);
+    
+    printf("enter the two number");
+    scanf("%d",&num2);
+
+    switch(ch) {
+        case '+':
+            printf("%d",num1+num2);
+            break;
+        case '-':
+            printf("%d",num1-num2);
+            break;
+        case '*':
+            printf("%d",num1*num2);
+            break;
+        case '/':
+              {
+                printf("%d",num1/num2);
+                break;
+            }
+        default:
+            printf("Error: Invalid operator");
+    }
+
+    return 0;
+}
+
+     
