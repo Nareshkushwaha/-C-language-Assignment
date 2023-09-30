@@ -1,0 +1,127 @@
+Retrun and No argument 
+-------------------------------
+Q1
+#include<stdio.h>
+int add();
+int main()
+{
+    int result=add();
+    printf("%d",result);
+    return 0;
+}
+ int add()
+{
+    int a=32,b=43,c;
+    c=a+b;
+    return c;
+}
+--------------------------------
+Q2
+#include<stdio.h>
+int add ();
+
+int sub ();
+
+int divs ();
+
+int multi ();
+
+int mod ();
+
+int
+main () 
+{
+  
+int result = add ();
+  
+printf ("%d\n", result);
+  
+int result1 = sub ();
+  
+printf ("%d\n", result1);
+  
+int result2 = divs ();
+  
+printf ("%d\n", result2);
+  
+int result3 = multi ();
+  
+printf ("%d\n", result3);
+  
+int result4 = mod ();
+  
+printf ("%d\n", result4);
+  
+return 0;
+
+}
+
+
+int
+add ()
+{
+  
+int a = 5, b = 4, c;
+  
+c = a + b;
+  
+return c;
+
+}
+
+
+int
+sub ()
+{
+  
+int a = 5, b = 4, c;
+  
+c = a - b;
+  
+return c;
+
+}
+
+
+ 
+int
+divs ()
+{
+  
+int a = 5, b = 4, c;
+  
+c = a * b;
+  
+return c;
+
+}
+
+
+ 
+int
+multi ()
+{
+  
+int a = 5, b = 4, c;
+  
+c = a / b;
+  
+return c;
+
+}
+
+
+ 
+int
+mod ()
+{
+  
+int a = 5, b = 4, c;
+  
+c = a % b;
+  
+return c;
+
+}
+
+---------------------------------------
